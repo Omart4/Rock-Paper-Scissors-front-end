@@ -13,11 +13,6 @@ const gameResults = document.querySelector('.game-result')
 const results = document.querySelector('.results')
 const resultsMessage = document.getElementById('result-message')
 const againButton = document.getElementById('again')
-const computerOptions = [
-    {type:'rock',pic:"./assets/rock--left.png",label:"Rock"},
-    {type:'paper',pic:"./assets/paper--left.png",label:"Paper"},
-    {type:'scissors',pic:"./assets/scissors--left.png",label:"Scissors"}
-]
 
 //Check if the player name field is empty
 if(playerName.value == ''){
